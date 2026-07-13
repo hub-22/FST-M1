@@ -6,11 +6,12 @@
     <test name="SuiteTests" >
         <classes>
             
-      <!-- Open CSV      <class name="suiteExample.DemoOne"/>
+      <!--  <class name="suiteExample.DemoOne"/>
             <class name="suiteExample.DemoTwo"/>
             <class name="suiteExample.Activity5"/>
             <class name="suiteExample.Activity6" />
  			<class name="suiteExample.Activity7" />
+ 			<class name="suiteExample.Activity8" />
  			<class name="suiteExample.Activity9" /> -->
  			
  			<class name="suiteExample.Activity11" />
