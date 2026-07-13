@@ -1,0 +1,61 @@
+Status: FAIL
+Time Taken: 299
+Size: 148
+Timestamp: Thu Jul 09 10:28:24 IST 2026
+TestStep: Get
+
+----------------- Messages ------------------------------
+[Valid HTTP Status Codes] Response status code: 404 is not in acceptable list of status codes
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.github.com
+Method: GET
+StatusCode: 404
+URL: https://api.github.com/user/keys/156762864
+
+---------------- Request ---------------------------
+Authorization: [Bearer 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]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.14 (Java/21.0.9)]
+Host: [api.github.com]
+Accept-Encoding: [gzip,deflate,br]
+Content-Length: [0]
+
+GET https://api.github.com/user/keys/156762864 HTTP/1.1
+Accept-Encoding: gzip,deflate,br
+Authorization: Bearer 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
+Content-Length: 0
+Host: api.github.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.9)
+
+
+---------------- Response --------------------------
+X-Accepted-OAuth-Scopes: [admin:public_key, read:public_key, write:public_key]
+Server: [github.com]
+X-RateLimit-Resource: [core]
+Access-Control-Allow-Origin: [*]
+X-RateLimit-Used: [15]
+x-github-api-version-selected: [2022-11-28]
+X-Frame-Options: [deny]
+Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]
+Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning]
+Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]
+X-RateLimit-Remaining: [4985]
+X-GitHub-Media-Type: [github.v3; format=json]
+Content-Security-Policy: [default-src 'none']
+#status#: [HTTP/1.1 404 Not Found]
+X-XSS-Protection: [0]
+Content-Type: [application/json; charset=utf-8]
+X-GitHub-Request-Id: [5305:1F91A7:A6B276:B94668:6A4F2A71]
+Transfer-Encoding: [chunked]
+X-Content-Type-Options: [nosniff]
+X-RateLimit-Reset: [1783574500]
+Date: [Thu, 09 Jul 2026 04:58:25 GMT]
+Vary: [Accept-Encoding, Accept, X-Requested-With]
+X-RateLimit-Limit: [5000]
+X-OAuth-Scopes: [admin:public_key, user:email]
+github-authentication-token-expiration: [2026-08-08 04:04:24 UTC]
+
+{"message":"Not Found","documentation_url":"https://docs.github.com/rest/users/keys#get-a-public-ssh-key-for-the-authenticated-user","status":"404"}
